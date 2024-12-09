@@ -1,0 +1,7 @@
+services:
+  flutter:
+    build:
+      context: ./
+    container_name: flutter
+    ports:
+      - "9000:9000"
