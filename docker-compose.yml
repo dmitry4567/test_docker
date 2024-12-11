@@ -3,5 +3,6 @@ services:
     build:
       context: ./
     container_name: flutter
+    restart: always
     ports:
       - "9000:9000"
